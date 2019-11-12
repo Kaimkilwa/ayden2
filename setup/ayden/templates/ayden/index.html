@@ -1,0 +1,225 @@
+
+{% load widget_tweaks %}
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" type="text/css" href=" {% static 'vendors/css/normalize.css'%}">
+    <link rel="stylesheet" type="text/css" href=" {% static 'vendors/css/grid.css'%}">
+    <link rel="stylesheet" type="text/css" href=" {% static 'vendors/css/ionicons.min.css'%}">
+    <link rel="stylesheet" type="text/css" href=" {% static 'vendors/css/animate.css'%}">
+    <link rel="stylesheet" type="text/css" href=" {% static 'css/style.css'%}">
+    <link rel="stylesheet" type="text/css" href=" {% static 'css/queries.css'%}">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,300i,400&display=swap" rel="stylesheet">
+    <title>Ayden cleaning website</title>
+</head>
+    <body>
+    <header class="js--main-sec" id="home">
+    <nav class="main-navs">
+           <div class="row">
+<!--                <p>A<span>Y</span>DEN</p>-->
+               <img src="{% static 'img/LOGO.jpeg'%}" class="logo js-scroll-to-main-sec" alt="logo">
+                <ul class="nivigations-list js--navigations-list">
+                    <li><a href="#home"><i class="ion-home icon-small"></i> home</a></li>
+                    <li><a href="#about"><i class="ion-person icon-small"></i> about</a></li>
+                    <li><a href="#services"><i class="ion-trash-a icon-small"></i> services</a></li>
+                    <li><a href="#form"><i class="ion-ios-telephone icon-small"></i> contacts</a></li>
+                </ul>
+               <a class="js--nav-icon">
+                <i class="ion-navicon js--mob-nav"></i>
+               </a>
+             </div>
+        </nav>
+        <div class="main-text-heading">
+            <h1 class="animated heartBeat">Welcome to our cleaning services,<br>we provide you with lots </h1>
+            <a href="#" class="btn btn-full js-scroll-to-section-form">booking</a>
+            <a href="#" class="btn btn-ghost js-scroll-to-section-services">more</a>
+        </div>
+        </header>
+        <section class="sec-about js--sec-about" id="about">
+            <div class="row">
+                <h2>let hear about ayden company limited</h2>
+                <p class="abt-txt">Ayden company is a cleaning company in Tanzania that provides many services and hospitality in way that many clients get satisfied and Lorem ipsum dolor sit amet, consectetuer adipiscing elit </p>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-2 box-about">
+                    <img src="{% static 'img/c.png'%}" class="abt-img animated bounceInUp" alt="pcha">
+                </div>
+                 <div class="col span-1-of-2 box-about">
+                     <div class="abt-details">
+                         <div>
+                             <img src="{% static 'img/msin.png'%}" alt="l1" class="icon-pc">
+                              <h3>OUR <span> MISSION</span></h3>
+                         </div>
+                         <P>ut,imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper ni</P>
+                     </div>
+                     <div class="abt-details">
+                           <div>
+                               <img src="{% static 'img/vis.png'%}" alt="l2" class="icon-pc">
+                               <h3>OUR <span>VISION</span></h3>
+                         </div>
+                         <P>ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper ni</P>
+                     </div>
+                     <div class="abt-details">
+                           <div>
+                               <img src="{% static 'img/val.png'%}" alt="l3" class="icon-pc">
+                               <h3>OUR <span>VALUES</span> </h3>
+                         </div>
+                         <P>ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper ni</P>
+                     </div>
+                </div>
+            </div>
+        </section>
+        <section class="sec-services js--sec-services" id="services">
+            <div class="row">
+                <h2>see all servises</h2>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <div class="card-services">
+                        <img src="{% static 'img/pc1.jpeg'%}" alt="pc-1">
+                         <div>
+                            <h4><span>Residential </span> cleaning</h4>
+                             <p>
+                              vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum
+                             </p>
+                          </div>
+                    </div>
+                </div>
+                 <div class="col span-1-of-3">
+                      <div class="card-services">
+                           <img src="{% static 'img/pc3.jpeg'%}" alt="pc-1">
+                          <div>
+                            <h4><span>office </span> cleaning</h4>
+                              <p>
+                               vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum
+                              </p>
+                          </div>
+                     </div>
+                </div>
+                 <div class="col span-1-of-3">
+                      <div class="card-services">
+                      <img src="{% static 'img/pc5.jpeg'%}" alt="pc-1">
+                           <div>
+                            <h4><span>Restaurant </span> cleaning</h4>
+                               <p>
+                                vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum
+                               </p>
+                          </div>
+                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col span-1-of-3">
+                    <div class="card-services">
+                        <img src="{% static 'img/garbage.jpeg'%}" alt="pc-1">
+                         <div>
+                            <h4><span>Garbage </span> collection</h4>
+                             <p>
+                              vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum
+                             </p>
+                          </div>
+                    </div>
+                </div>
+                 <div class="col span-1-of-3">
+                      <div class="card-services">
+                           <img src="{% static 'img/cln.jpeg'%}" alt="pc-1">
+                          <div>
+                            <h4><span>Gardening </span>& fumigation</h4>
+                              <p>
+                               vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum
+                              </p>
+                          </div>
+                     </div>
+                </div>
+                 <div class="col span-1-of-3">
+                      <div class="card-services">
+                      <img src="{% static 'img/wshng.jpeg'%}" alt="pc-1">
+                           <div>
+                            <h4><span>Appartment </span> cleaning</h4>
+                               <p>
+                                vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum
+                               </p>
+                          </div>
+                     </div>
+                </div>
+            </div>
+        </section>
+         <section class="section-form js--section-form" id="form">
+            <div class="row">
+                <h2>We're happy to hear from you</h2>
+            </div>
+            <div class="row">
+                <form method="post" action="#" class="contact-form animated fadeInUp">
+                   {% csrf_token %}
+                    
+                            {% for field in  form %}
+                        <div class="row">
+                           <div class="col span-1-of-3">
+                            <label for="{{field.id_for_label }}">{{ field.label }}</label>
+                                </div>
+                        
+                                <div class="col span-2-of-3">
+                                {% render_field field class="form-control" placeholder=field.label %}
+                                <div class="{% if field.errors %} invalid{% endif %}">
+                                {% for error in field.errors %}
+                                    <p class="help-block">{{ error }}</p>
+                                {% endfor %}
+                                </div>
+                                </div>
+                            {% endfor %}
+                      </div>
+                       <div class="row">
+                        <div class="col span-1-of-3">
+                            <label>&nbsp;</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Send it!">
+                        </div>
+                    </div>
+     
+                </form>
+                
+            </div>
+        </section>
+         <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#form">Contacts</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="social-links">
+                        <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                        <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                        <li><a href="#"><i class="ion-social-googleplus"></i></a></li>
+                        <li><a href="#"><i class="ion-social-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    This webpage was created by iddimsangi and it is a property of Ayden company limited.<br>
+                </p>
+                <p>
+                 <i class="ion-ios-email" style="color:#1d5f9f; padding: 0 3px;"></i>P.O.BOX 63242 <i class="ion-ios-location" style="color:#1d5f9f; padding: 0 3px;"></i> Dar es salaam, Tanzania,<i class="ion-ios-telephone" style="color:#1d5f9f; padding: 0 3px;"></i>+255 755 860 301,+255 764 667 093.
+                </p>
+            </div>
+             <hr>
+             <p>Copyright 2019&mdash;All rights reserved</p>
+    </footer>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="//cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script src="//cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="//cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
+    <script src="{% static 'vendors/js/jquery.waypoints.min.js'%}"></script>
+    <script src="{% static 'js/script.js'%}"></script>
+    </body>
+</html>

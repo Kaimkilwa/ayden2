@@ -1,0 +1,76 @@
+@media only screen and (max-width: 1024px) {
+    /*----------------from 768 to 1024*/
+    h1{
+font-size:130%;
+    }
+    .nivigations-list li a{
+        font-size: 90%;
+    }
+    .abt-img {
+    width: 95%;
+}
+    
+}
+@media only screen and (max-width: 767px) {
+    /*---------------from 481 to 767*/
+    h1{
+        font-size: 100%;
+        margin-bottom: 30px;
+    }
+    .btn{
+    border: 1px solid green;
+    padding: 10px;
+    margin-right:5px;
+    text-transform: uppercase;
+    color:#fff;
+    font-weight: 300;
+}
+    .nivigations-list{
+        display: none;
+    }
+    h2{
+        font-size: 90%;
+    }
+    h3{
+    font-size: 80%;
+    }
+    .abt-txt {
+    font-size: 78%;
+    line-height: 120%;
+}
+    .card-services div p{
+    font-size: 70%;
+    padding: 1%;
+}
+    .footer-nav li,
+.social-links li {
+    margin-right: 10px;
+}
+    input[type=text],
+    input[type=email],
+    select,
+    textarea {
+        width: 100%;
+        font-size: 70%;
+        padding: 7px;
+    }
+    label{
+        font-size: 80%;
+    }
+    .social-links li a:link,
+.social-links li a:visited {
+    font-size: 130%;
+}
+    h3{
+    font-weight: 300;
+    font-size: 85%;
+}
+    h4{
+    font-size: 80%;
+    font-weight: 300;
+}
+}
+
+@media only screen and (max-width: 480px) {
+   
+}
